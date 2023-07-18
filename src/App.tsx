@@ -1,10 +1,17 @@
+import { useState } from 'react';
+import { Form } from './components';
+import type { UnicElement } from './types';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
 
-    </div>
+  const [symbol, setSymbol] = useState<UnicElement>('')
+
+  return (
+    <>
+      <Form changeSymbol={setSymbol}/>
+      {symbol && <p className='Symbol'>{symbol}</p>}
+    </>
   );
 }
 
