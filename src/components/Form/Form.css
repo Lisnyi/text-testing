@@ -1,0 +1,23 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.Text-input {
+    padding: 10px;
+    resize: none;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.Button {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+    
+}
